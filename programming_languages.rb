@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   new_hash = Hash.new
   languages.each do |key,value|
-  binding.pry
+    puts key
   end
   new_hash
 end
